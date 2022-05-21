@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-link:hover {
+    color: #ffc107 !important;
+    transform: scale(1.1)
+}
+
+
+.btn {
+    border-radius: 30px !important;
+    padding: 10px 40px !important;
+    border: 2px solid #ffc107 !important;
+}
+
+.page-2 .col-lg-5 {
+    background: linear-gradient(45deg, rgba(185, 255, 201, 0.1), rgba(150, 238, 170, 0.1)), url(../img/learn-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 80vh;
+}
+
+.page-2 {
+    background: linear-gradient(40deg, rgba(154, 255, 123, 0.8), rgba(252, 201, 47, 0.7)), url(../img/bg-4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.experience {
+    background: linear-gradient(45deg, rgba(253, 224, 135, 0.75), rgba(154, 255, 123, 0.8));
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    border-top: 2px SOLID limegreen;
+}
+
+.page-2 .col-lg-7 h2::before {
+    content: "";
+    background-color: limegreen;
+    width: 40px;
+    height: 5px;
+    position: absolute;
+    left: 7%;
+    top: 21%;
+    z-index: +1;
+}
+
+.page-2 .col-lg-7 h2::after {
+    content: "";
+    background-color: yellow;
+    width: 40px;
+    height: 5px;
+    position: absolute;
+    left: 7%;
+    top: 25%;
+    z-index: +1;
+}
+
+.contact-info .row {
+    min-height: 30vh;
+}
+
+.blog {
+    background: linear-gradient(45deg, rgba(253, 224, 135, 0.75), rgba(154, 255, 123, 0.8)), url(../img/bg-5.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.blog .row .date {
+    position: relative;
+    top: 0%;
+    left: 75%;
+}
+
+.blog .card:hover {
+    transform: scale(1.05);
+}
