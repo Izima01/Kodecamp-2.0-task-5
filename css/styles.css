@@ -9,7 +9,6 @@
     transform: scale(1.1)
 }
 
-
 .btn {
     border-radius: 30px !important;
     padding: 10px 40px !important;
@@ -20,7 +19,6 @@
     background-position: center;
     background-size: cover;
     min-height: 80vh;
-    /* width: 90%; */
 }
 
 .page-2 {
@@ -35,29 +33,6 @@
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    border-top: 2px SOLID limegreen;
-}
-
-.page-2 .col-lg-7 h2::before {
-    content: "";
-    background-color: limegreen;
-    width: 40px;
-    height: 5px;
-    position: absolute;
-    left: 7%;
-    top: 22%;
-    z-index: +1;
-}
-
-.page-2 .col-lg-7 h2::after {
-    content: "";
-    background-color: yellow;
-    width: 40px;
-    height: 5px;
-    position: absolute;
-    left: 7%;
-    top: 24%;
-    z-index: +1;
 }
 
 .contact-info .row {
@@ -95,7 +70,7 @@
     width: 400px;
 }
 
-input[type="email"] {
+.bottom-section input[type="email"] {
     outline: none;
     border-radius: 30px 0 0 30px;
     border: none;
@@ -108,6 +83,15 @@ input[type="email"] {
     left: -10%;
 }
 
+input[type="email"], input[type="text"] {
+    outline: none;
+    border: 1px solid grey;
+}
+
+.hero-section form {
+    width: 90%;
+}
+
 @media (max-width: 426px) {
     .hero-section .carousel-item img {
         height: 40vh;
@@ -118,5 +102,8 @@ input[type="email"] {
     .page-2 .col-lg-5 {
         width: 95%;
         margin: 0 auto;
+    }
+    .tabs {
+        display: none;
     }
 }
