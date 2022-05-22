@@ -20,6 +20,7 @@
     background-position: center;
     background-size: cover;
     min-height: 80vh;
+    /* width: 90%; */
 }
 
 .page-2 {
@@ -88,4 +89,16 @@
 .team-members .swiper-slide img {
     height: 400px;
     width: 400px;
+}
+
+@media (max-width: 426px) {
+    .hero-section .carousel-item img {
+        height: 40vh;
+    }
+    .hero-section .carousel-item h4 {
+        font-size: 30px;
+    }
+    .page-2 .col-lg-5 {
+        width: 95%;
+    }
 }
