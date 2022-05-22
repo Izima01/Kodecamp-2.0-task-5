@@ -106,4 +106,7 @@ input[type="email"], input[type="text"] {
     .tabs {
         display: none;
     }
+    .swiper-slide {
+        width: 90%;
+    }
 }
