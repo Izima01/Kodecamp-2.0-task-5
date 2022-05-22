@@ -85,3 +85,7 @@
     top: -15px;
 }
 
+.team-members .swiper-slide img {
+    height: 400px;
+    width: 400px;
+}
