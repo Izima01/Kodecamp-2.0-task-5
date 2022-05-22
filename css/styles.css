@@ -45,7 +45,7 @@
     height: 5px;
     position: absolute;
     left: 7%;
-    top: 21%;
+    top: 22%;
     z-index: +1;
 }
 
@@ -56,7 +56,7 @@
     height: 5px;
     position: absolute;
     left: 7%;
-    top: 25%;
+    top: 24%;
     z-index: +1;
 }
 
@@ -77,6 +77,10 @@
     left: 75%;
 }
 
+.blog .card {
+    margin: 0 auto;
+}
+
 .blog .card:hover {
     transform: scale(1.05);
 }
@@ -89,6 +93,19 @@
 .team-members .swiper-slide img {
     height: 400px;
     width: 400px;
+}
+
+input[type="email"] {
+    outline: none;
+    border-radius: 30px 0 0 30px;
+    border: none;
+    width: 120%;
+}
+
+.bottom-section .col-lg-4 .col-6 .btn {
+    border-radius: 0 30px 30px 0 !important;
+    z-index: 1;
+    left: -10%;
 }
 
 @media (max-width: 426px) {
