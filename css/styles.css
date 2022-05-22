@@ -109,4 +109,18 @@ input[type="email"], input[type="text"] {
     .swiper-slide {
         width: 90%;
     }
+    .carousel-caption h5 {
+        font-size: 22px !important;
+        margin-top: 20px;
+    }
+    .carousel-caption h4 {
+        font-size: 28px !important;
+    }
+    .carousel-caption .btn {
+        font-size: 12px !important;
+        padding: 6px 18px !important;
+    }
+    .carousel-caption {
+        margin-bottom: 0;
+    }
 }
