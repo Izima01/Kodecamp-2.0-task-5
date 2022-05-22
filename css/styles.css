@@ -22,15 +22,11 @@
 }
 
 .page-2 {
-    background: linear-gradient(40deg, rgba(248, 246, 92, 0.7), rgba(252, 201, 47, 0.7)), url(../img/bg-4.jpg);
-    background-position: center;
-    background-size: cover;
+    background: linear-gradient(40deg, rgba(248, 246, 92, 0.7), rgba(252, 201, 47, 0.7));
 }
 
 .experience {
     background: linear-gradient(45deg, rgba(253, 224, 135, 0.75), rgba(154, 255, 123, 0.8));
-    background-position: center;
-    background-size: cover;
 }
 
 .contact-info .row {
@@ -38,9 +34,7 @@
 }
 
 .blog {
-    background: linear-gradient(45deg, rgba(253, 224, 135, 0.75), rgba(154, 255, 123, 0.8)), url(../img/bg-5.png) no-repeat;
-    background-position: center;
-    background-size: cover;
+    background: linear-gradient(45deg, rgba(253, 224, 135, 0.75), rgba(154, 255, 123, 0.8));
 }
 
 .blog .row .date {
