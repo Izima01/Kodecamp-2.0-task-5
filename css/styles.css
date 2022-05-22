@@ -117,5 +117,6 @@ input[type="email"] {
     }
     .page-2 .col-lg-5 {
         width: 95%;
+        margin: 0 auto;
     }
 }
